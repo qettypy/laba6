@@ -18,10 +18,10 @@ void drawIsoscelesTrapezoid(int height, int base) {
     int width = 2 * base - 1;
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < (width - (2 * i + 1)) / 2; ++j) {
-            cout << " ";
+            cout << "    ";
         }
         for (int j = 0; j < 2 * i + 1; ++j) {
-            cout << "*";
+            cout << "****";
         }
         cout << endl;
     }
